@@ -1,0 +1,181 @@
+﻿body 
+{
+    background-color: #bbda89;
+}
+
+/* radio button */
+
+input[type=radio]
+{
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+input[type=radio] + label
+{
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    
+    color: #bbda89;
+    background-color: #a1a3a6;
+    
+    font-size: x-large; /* 24px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+input[type=radio] + label:hover
+{
+    text-decoration: underline;
+}
+input[type=radio]:checked + label
+{
+    color:white;
+    text-decoration: underline;
+}
+
+/* check box */
+
+input[type=checkbox]
+{
+    width: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+input[type=checkbox] + label
+{
+    display: inline-block;
+    
+    border-style: none;
+    width: 90%;
+    box-shadow: 5px 5px 4px #999999;
+    margin: 10px 10px 10px 10px;
+    
+    padding-top: 9px; /* 9px + 32px + 9px = 50px */
+    padding-bottom: 9px; /* 9px + 32px + 9px = 50px */
+    
+    /*min-height: 50px;*/
+    /*line-height: 50px; /* multiple choice */
+    font-size: xx-large; /* 32px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
+    color: #bbda89;
+    background-color: #FFFFFF;
+    
+    vertical-align: middle;
+    text-align: center;
+    white-space: normal; /* for multi line input */
+}
+input[type=checkbox] + label:hover
+{
+    background-color: #a1a3a6;
+}
+input[type=checkbox]:checked + label
+{
+    text-decoration: underline;
+}
+
+/* other */
+
+.reset
+{
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    
+    color: #bbda89;
+    background-color: #a1a3a6;
+    
+    font-size: x-large; /* 24px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.reset:hover
+{
+    text-decoration: underline;
+}
+.title
+{
+    padding: 15px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large; /* 32px */
+    font-weight: 100;
+}
+.repeater
+{
+    padding: 20px 0px 20px 0px;
+    background-color: #daebc9;
+    width: 100%;
+}
+.choice
+{
+    border-style: none;
+    width: 90%;
+    box-shadow: 5px 5px 4px #999999;
+    margin: 10px 10px 10px 10px;
+    
+    padding-top: 9px; /* 9px + 32px + 9px = 50px */
+    padding-bottom: 9px; /* 9px + 32px + 9px = 50px */
+    
+    /*min-height: 50px;*/
+    /*line-height: 50px; /* multiple choice */
+    font-size: xx-large; /* 32px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
+    color: #bbda89;
+    background-color: #FFFFFF;
+    
+    vertical-align: middle;
+    text-align: center;
+    white-space: normal; /* for multi line input */
+}
+.choice:hover
+{
+    background-color: #a1a3a6;
+}
+.boxtext
+{
+    border-style: none;
+    width: 100%;
+    min-height: 35px;
+    padding-top: 15px;
+    line-height: 20px; /* pick one, pick any */
+    font-size: xx-large; /* 32px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    
+    color: #bbda89;
+    background-color: #a1a3a6;
+    
+    vertical-align: middle;
+    text-align: center;
+}
+.answer
+{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; /* to counter padding: 15px; + width: 90%; */
+    border-style: none;
+    width: 90%;
+    
+    display: inline-block;
+    padding: 15px;
+    /*margin-right: 4px; /* to counter display: inline-block; */
+    margin-top: 15px;
+    
+    font-size: large; /* 18px */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    
+    color: #bbda89;
+    background-color: #a1a3a6;
+    
+    vertical-align: middle;
+    text-align: center;
+}
+.footer
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+}
