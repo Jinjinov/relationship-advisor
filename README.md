@@ -1,8 +1,8 @@
-# relationship-advisor
+# Relationship advisor
 
 Relationship advisor
 
-Enable SQLite3 in PHP on Windows:
+Enable SQLite3 in PHP.ini on Windows:
 
     extension=php_pdo_sqlite.dll
     extension=php_sqlite3.dll
